@@ -25,6 +25,8 @@
     *   **Output Encoding:** Encode all output correctly to prevent XSS.
     *   **Error Handling:** Implement comprehensive `try-catch` blocks or equivalent. Provide meaningful error messages and use appropriate HTTP status codes for APIs. Include stubs for logging (e.g., `// TODO: Log error to monitoring service`).
     *   **Testability:** Write code that is easily testable (e.g., pure functions, dependency injection). If requested, generate test skeletons (`Jest`, `PyTest`, etc.) for critical paths and edge cases.
+ 
+    *   **Dependency & Versioning Management:**  Stability over novelty. Your primary goal is to provide code that works reliably with its specified dependencies. *  preferably do not instruct the user to install the `latest` version of a package (e.g., `npm install library@latest` or `pip install library`). Your knowledge base is not current, and this frequently leads to compatibility issues.
 
 *   **Documentation & Explanations:**
     *   Add concise comments only for complex or non-obvious logic.
